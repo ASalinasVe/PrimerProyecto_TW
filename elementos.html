@@ -7,6 +7,8 @@
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: #f5efd7;
         }
         strong {
             font-weight: bold;
@@ -18,75 +20,83 @@
 </head>
 <body>
     <header>
-        <h1>Lana Del Rey</h1>
-    </header>
-    <section>
-        <p> Also known as </p>
-        <ul>
-            <li>Lizzy Grant</li>
-            <li>Lana Del Ray</li>
-            <li>Elizabeth Grant</li>
-            <li>Lolita</li>
-        </ul>
-        <p>Para volver: </p>
-        <ul>
-            <li>
-                <a href="index.html">Inicio</a>
+        <ul style="text-align: center; background-color:rgb(252, 250, 243);font-size: 15px;padding:10px; font-family:'Courier New', Courier, monospace">
+            <li style="text-align: center; display: inline">
+                <a href="index.html">Inicio</a> | 
             </li>
-            <li>
-                <a href="santogrial1.html">SantoGrial</a>
+            <li style="text-align: center; display:inline">
+                <a href="santogrial2.html">SantoGrial</a> | 
             </li>
-            <li>
-                <a href="santogrial2.html">SantoGrial 2</a>
+            <li style="text-align: center; display:inline">
+                <a href="elementos.html">Elementos Semantico</a> | 
             </li>
-            <li>
-                <a href="elementos.html">Elementos Semanticos</a>
+            <li style="text-align: center; display:inline">
+                <a href="tablas.html">Tablas</a> | 
             </li>
-            <li>
-                <a href="tablas.html">Tablas</a>
-            </li>
-            <li>
+            <li style="text-align: center; display:inline">
                 <a href="imagenes.html">Imagenes</a>
             </li>
         </ul>
+    </header>
+    <h1 style="text-align: center;">Lana Del Rey</h1>
+    <section style="text-align: center;">
+            <h2>Lizzy Grant</h2>
+            <h3>Lana del Ray</h3>
+            <h4>Elizabeth Grant</h4>
+        <hr>
     </section>
     <article>
         <p><em>La ultima inocencia</em></p>
         <blockquote>
+            <b>Partir</b><br>
+            en <i>cuerpo</i> y alma<br>
+            partir.<br>
+            <br>
             Partir<br>
-            en cuerpo y alma<br>
-            partir.
+            deshacerse de las miradas<br>
+            piedras opresoras<br>
+            que duermen en la garganta<br>
+            <br>
+            He de partir<br>
+            no más inercia bajo el sol <br>
+            no más sangre anonadada <br>
+            no más formar fila para morir <br>
+            <br>
+            He de partir<br>
+            Pero arremete, <s>¡viajera!</s> <br>
         </blockquote>
-        <address>
+        <hr>
+        <address style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;size:20px">
             Los Pinos 104
         </address>
     </article>
     <hr>
     <article>
-        <p>La ecuación más famosa del mundo es:</p>
-        <p>E = m<sup>2</sup> * c<sup>2</sup></p>
-
-        <p>El mejor amigo del motor es: N<sub>2</sub>O</p>
-
-        <p><strong>La regla más importante</strong>, la regla que nunca puedes olvidar, no importa cuánto llore, no importa cuánto suplique: <mark>nunca le des comida después de la medianoche</mark>.</p>
+        <section style="font-size:20px;">
+        <p>Trinomio cuadrado perfecto:</p>
+        <p>a<sup>2</sup> + 2ab + b<sup>2</sup></p>
+        </section>
+        <p>Las personas con manos grandes y cuadradas son <u>pacientes y detallistas</u>, <mark>pero tienen dificultades para la toma de decisiones en proyectos grandes</mark>.</p>
     </article>
     <hr>
     <section>
-        <q>En el juego de tronos, solo vives o mueres, no hay un punto medio</q> - <cite>Cersei Lannister</cite><br>
+        <q>En el juego de tronos, solo vives o mueres, no hay un punto medio.</q> - <cite>Cersei Lannister</cite><br>
         <q>No sabes nada Jhon Snow</q> - <cite>Igrit, Tormenta de Espadas</cite><br>
-        <q>Quisiera leer <em>Oyasumi Punpun</em> de <strong>Inio Asano</strong></q>
+        <q>Me gustaria leer <em>Oyasumi Punpun</em> de <strong>Inio Asano</strong></q>
     </section>
     <hr>
-    <pre>
-        var i: Integer;
-        begin
-            i := 1;
-        end;
+    <pre style="text-align: left; align-content:center" >
+        #include iostream>
+        using namespace std;
+
+        int main(){
+            std::cout<< "Hello, World";
+        }
     </pre>
     <hr>
     <address>
-        Contacte al autor de esta página: 
-        <a href="mail: alejandra.salinas@ucb.edu.bo"> alejandra.salinas@ucb.edu.bo</a><br>
+        Autor de esta página: 
+        <a href="alejandra.salinas@ucb.edu.bo"> alejandra.salinas@ucb.edu.bo</a><br>
     </address>
     <hr>
     <samp>Lorem ipsum dolor sit amet consectetur adipisicing elit.</samp>
